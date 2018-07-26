@@ -18,6 +18,4 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
     , app);
-    console.log('wtf');
-    
 });

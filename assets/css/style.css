@@ -39,6 +39,10 @@ body{
     background-color: #4BA6E5;
     box-shadow: 0 2px 2px -2px gray;
 }
+.selected-opt{
+    background-color: #4BA6E5;
+    box-shadow: 0 2px 2px -2px gray;
+}
 #menu-opt-0{
     border-radius: 10px 0px 0px 0px;
 }
@@ -57,7 +61,7 @@ body{
 }
 header{
     width: 100%;
-    height: 55px;
+    height: 59px;
     background-color: #F0F3F9;
     box-shadow: 0 2px 2px -2px rgba(128, 128, 128, 0.516);
     padding-left: 30px;
@@ -90,6 +94,10 @@ main{
     padding-right: 20px;
 }
 .tab:hover{
+    color: #4BA6E5;
+    border-bottom: 2px solid #4BA6E5;
+}
+.selected-tab{
     color: #4BA6E5;
     border-bottom: 2px solid #4BA6E5;
 }
@@ -126,7 +134,22 @@ option{
     /* padding: 8px; */
 }
 table{
+    display: flex;
     height: 100%;
     width: 100%;
     background-color: #F0F3F9;
+    border-spacing: 0px;
+    /* padding: 10px; */
+}
+.cell{
+    display: flex;
+    min-width: 30px;
+    min-height: 30px;
+    max-height: fit-content;
+    padding: 7px;
+    border-right: 1px solid rgba(128, 128, 128, 0.253);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.253);
+}
+.cell:hover{
+    border: 1px solid gray;
 }
