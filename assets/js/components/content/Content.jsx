@@ -8,7 +8,9 @@ class Content extends React.Component {
     render() {
         return (
             <main>
-
+                <Tabs></Tabs>
+                <Filters></Filters>
+                <Table></Table>
             </main>
         );
     }
