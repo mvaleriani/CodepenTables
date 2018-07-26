@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
-	 height="24px" fill="#F0F3F9" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+	 height="30px" fill="#F0F3F9" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
 <g id="Bounding_Boxes">
 	<g id="ui_x5F_spec_x5F_header_copy_3" display="none">
 	</g>
 	<path fill="none" d="M0,0h24v24H0V0z"/>
 </g>
-<g id="Outline">
+<g id="Outline" fill="#F0F3F9">
 	<g id="ui_x5F_spec_x5F_header" display="none">
 	</g>
 	<path d="M13,7h-2v4H7v2h4v4h2v-4h4v-2h-4V7z M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20
