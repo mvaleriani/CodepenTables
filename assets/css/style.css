@@ -5,6 +5,7 @@ body{
     overflow: hidden;
     padding: 11px;
     margin: 0px;
+    color: rgba(72, 72, 72, 0.548);
     /* background-color: rgb(45, 113, 185); */
 }
 #app{
@@ -69,10 +70,30 @@ main{
     padding-left: 30px;
 }
 #tabs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     height: 55px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.267);
     margin-bottom: 15px;
+    margin-top: 10px;
 }
+.tab{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(72, 72, 72, 0.548);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tab:hover{
+    color: #4BA6E5;
+    border-bottom: 2px solid #4BA6E5;
+}
+
 #filters{
     display: flex;
     flex-direction: row;
@@ -90,6 +111,19 @@ main{
 }
 #filters select{
     margin-right: 18px;
+    -webkit-appearance: none;
+    color: rgba(72, 72, 72, 0.664);
+    padding: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    font-weight: 600;
+    font-size: 12px;
+}
+#filters select:focus{
+    outline: none;
+}
+option{
+    -webkit-appearance: none;
+    /* padding: 8px; */
 }
 table{
     height: 100%;
